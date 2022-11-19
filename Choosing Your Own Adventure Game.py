@@ -11,7 +11,8 @@ if answer == "OUT":
     
 elif answer == "SLEEP":
     print("You heard noises outside but you just locked your room and go back to sleep.")
-    answer = input("You woke up again and looked at the time. It is 9:00PM of the evening. What are you going to do? (CHECK THE WINDOWS/LOOK AT THE WEIRD NOISES OUTSIDE: ")
+    answer = input("You woke up again and looked at the time. It is 9:00PM of the evening. What are you going to do? "
+                   "(CHECK THE WINDOWS/LOOK AT THE WEIRD NOISES OUTSIDE: ")
     
 else:
     print("A horde of zombie entered your room and you died. Game Over!")
